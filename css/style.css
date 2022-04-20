@@ -1,0 +1,141 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Black";
+}
+
+hr {
+  border-color: black;
+  border-style: solid none none;
+  border-width: 5px;
+  width: 5%;
+  margin: auto;
+}
+
+/* title section */
+.container-fluid {
+  padding: 3% 7% 15%;
+}
+
+.heading-title {
+  color: #fff;
+  text-align: left;
+  font-size: 4rem;
+  margin-top: 150px;
+}
+
+.motto {
+  color: white;
+  text-align: left;
+  font-size: 2rem;
+  width: 60%; 
+}
+
+.bg-img {
+  background-size: cover;
+  background-image: url('images/main.jpeg');
+  min-height: 100%;
+  background-position: center;
+  /* filter: grayscale(60%);   */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* Navigatiton Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nave-link {
+  font-family: "Montserrat-black";
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+}
+
+/* About Section */
+.features-fluid {
+  padding: 7% 15% 7% 0;
+}
+
+.about {
+  padding-left: 120px;
+  text-align: left;
+}
+
+
+.about-heading {
+  color: black;
+  font-size: 3.25rem;
+}
+
+.about-image {
+  width: 100%;
+  height: 90%;
+}
+
+.about-para{
+  font-size: 1.25rem;
+  margin-top: 50px;
+}
+
+/* Services Section */
+
+#services{
+  text-align: left;
+}
+
+.services-div{
+  padding: 7% 15%;
+}
+
+.serv-heads{
+  padding-right: 50%;
+}
+
+.services-heading{
+  color: #fff;
+  font-size: 4.25rem;
+}
+
+.serv-para{
+  color: #fff;
+  font-size: 0.85rem;
+}
+
+.services-img {
+  background-size: cover;
+  background-image: url('images/main.jpeg');
+  min-height: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  filter: grayscale(55%);
+  background-repeat: no-repeat;
+}
+
+.services-row{
+  margin-top: 70px;
+}
+
+.card-info{
+  margin-top: 100px;
+}
+
+/* Footer Section */
+
+.footer-div{
+  background-color: #fff;
+  padding: 3% 5%;
+}
+
+.footer-icon {
+  color: black;
+  margin: 2px 5px;
+}
