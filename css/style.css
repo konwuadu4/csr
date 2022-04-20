@@ -1,6 +1,5 @@
 body {
   font-family: "Montserrat";
-  /* text-align: center; */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,7 +20,7 @@ hr {
 }
 
 .heading-title {
-  color: #fff;
+  color: white;
   text-align: left;
   font-size: 4rem;
   margin-top: 150px;
@@ -132,14 +131,16 @@ hr {
 
 .contact-us{
   position: relative;
-  min-height: 100vh;
-  padding: 50px 100px;
+  min-height: 90vh;
+  padding: 50px 150px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-image: url(images/contact-us.jpeg);
   background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .contact-us .contact-div{
@@ -294,7 +295,6 @@ hr {
   .contactForm
   {
     width: 100%;
-
   }
 }
 /* Footer Section */
@@ -302,9 +302,10 @@ hr {
 .footer-div{
   background-color: #fff;
   padding: 3% 10%;
+  text-align: center;
 }
 
 .footer-icon {
   color: black;
-  margin: 3px 5px;
+  margin: 4px 10px;
 }
