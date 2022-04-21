@@ -1,6 +1,5 @@
 body {
     font-family: "Montserrat";
-    text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -75,17 +74,6 @@ hr {
     color: black
 }
 
-/* .services-img {
-    background-size: cover;
-    background-image: url('images/main.jpeg');
-    min-height: 100%;
-    background-position: center;
-    background-attachment: fixed;
-    filter: grayscale(75%);
-    background-repeat: no-repeat;
-} */
-
-
 /* List of services */
 .services-fluid {
     padding:  30% 7%;
@@ -125,7 +113,7 @@ hr {
 .single-service p{
     color: black;
     font-size: 14px;
-
+    
 }
 
 .single-service h3{
@@ -174,38 +162,173 @@ hr {
         font-size: 30px;
     }
 }
-/* .card-info{
-    margin-top: 100px;
+
+/* Contact Us */
+.contact-us{
+    position: relative;
+    min-height: 90vh;
+    padding: 50px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(images/contact-us.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.contact-us .contact-div{
+    max-width: 800px;
+    text-align: center;
+}
+
+.contact-us .contact-div h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: white;
+}
+
+.contact-us .contact-div p{
+    font-weight: 300;
+    color: white;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .contact-info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contact-info .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container .contact-info .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.container .contact-info .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: white;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.container .contact-info .box .text h3{
+    font-weight: 500;
+    color: white;
+}
+
+.contactForm{
+    width: 45%;
+    height: 90%;
+    padding: 40px;
+    background: #fff;
+}
+
+.contactForm h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span{
+    color: red;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+
+.contactForm .inputBox input[type="submit"]{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+@media (max-width: 991px){
+    .contact{
+        padding: 50px;
+    }
     
+    .container{
+        flex-direction: column;
+    }
+    
+    .container .contact-info{
+        margin-bottom: 40px;
+    }
+    
+    .container .contact-info,
+    .contactForm
+    {
+        width: 100%;
+    }
 }
-
-/* .card-about{
-    padding-right: 80px;
-} */
-
-/* .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 80%; 
-    margin: 0 auto;
-    float: none;
-    margin-bottom: 10px;
-} */
-
-/* .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-*/
-
-
 
 /* Footer Section */
 .footer-div{
     background-color: #fff;
-    padding: 3% 5%;
+    padding: 3% 10%;
+    text-align: center;
 }
 
 .footer-icon {
     color: black;
-    margin: 2px 5px;
+    margin: 4px 10px;
 }
