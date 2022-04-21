@@ -22,7 +22,7 @@ hr {
 .bg-img {
     background-size: cover;
     background-image: url('images/main.jpeg');
-    min-height: 100%;
+    min-height: 70%;
     filter: grayscale(55%);
     background-position: center;
     background-attachment: fixed;
@@ -77,7 +77,7 @@ hr {
 
 /* List of services */
 .services-fluid {
-    padding:  30% 7%;
+    padding:  10% 7%;
     /* width: 1170px; */
     /* margin: 5% 3%; */
 }
@@ -158,14 +158,14 @@ hr {
     display: flex;
     margin-left: 20px;
     font-size: 16px;
-    color: white;
+    color: black;
     flex-direction: column;
     font-weight: 300;
 }
 
 .services-fluid .container .box .text h3{
     font-weight: 500;
-    color: white;
+    color: black;
 }
 
 /* .single-service{
