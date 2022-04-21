@@ -6,13 +6,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat-Black";
 }
 
-/* hr {
+hr {
   border-color: black;
   border-style: solid none none;
   border-width: 5px;
   width: 5%;
   margin: auto;
-} */
+}
 
 /* title section */
 .container-fluid {
@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* About Section */
-.features-fluid {
+/* .features-fluid {
   padding: 7% 15% 7% 0;
 }
 
@@ -83,15 +83,74 @@ h1, h2, h3, h4, h5, h6 {
 .about-para{
   font-size: 1.25rem;
   margin-top: 50px;
+} */
+
+/* About Section */
+.features-fluid {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.about {
+  padding-left: 120px;
+}
+
+.about-heading {
+  color: black;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.about-heading-who{
+  font-size: 4rem;
+}
+
+#who-are-we{
+  text-align: center;
+  color: #fff;
+}
+
+.about-para{
+  padding-top: 50px;
+  color: black
+}
+
+.card-info{
+  margin-top: 100px;
+
+}
+
+.card-about{
+  padding-right: 80px;
+}
+
+.card {
+  transition: 0.3s;
+  width: 40%;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.about-info {
+  margin: 150px 0px 0px 10px;
 }
 
 /* Services Section */
 
-#services{
+/* #services{
   text-align: left;
-}
+} */
 
-.services-div{
+/* .services-div{
   padding: 7% 15%;
 }
 
@@ -125,6 +184,66 @@ h1, h2, h3, h4, h5, h6 {
 
 .card-info{
   margin-top: 100px;
+} */
+
+.services-fluid {
+  padding:  10% 7%;
+  /* width: 1170px; */
+  /* margin: 5% 3%; */
+}
+
+.services-fluid h2{
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  font-size: 60px;
+  margin: 0;
+}
+
+
+.services-fluid .container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.services-fluid .container{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.services-fluid .container .box{
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+
+.services-fluid .container .box .icon{
+  min-width: 60px;
+  height: 60px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+
+.services-fluid .container .box .text{
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: black;
+  flex-direction: column;
+  font-weight: 300;
+}
+
+.services-fluid .container .box .text h3{
+  font-weight: 500;
+  color: black;
 }
 
 /* Contact Us */
